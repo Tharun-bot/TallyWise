@@ -1,0 +1,19 @@
+@import url('https://cdnjs.cloudflare.com/ajax/libs/MaterialDesign-Webfont/5.8.55/css/materialdesignicons.min.css');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+// Additional styles
+@import 'additional-styles/paginator.scss';
+
+// Additional Tailwind directives: https://tailwindcss.com/docs/functions-and-directives/#responsive
+@responsive {
+  .rtl {
+    direction: rtl;
+  }
+}
+
+// AOS styles
+$aos-distance: 10px;
+@import 'node_modules/aos/src/sass/aos.scss';
